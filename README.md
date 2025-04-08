@@ -1,4 +1,5 @@
 DEIM for fracture detection
+
 🩻 **基于 DEIM-DETR 的骨折线检测项目**
 
 本项目基于 [CVPR 2025] 论文 [《DEIM: DETR with Improved Matching for Fast Convergence》](https://www.shihuahuang.cn/DEIM/)，旨在将 DEIM 框架应用并改进于医疗图像中的骨折线检测任务，例如 X 光或 CT 扫描图像。
