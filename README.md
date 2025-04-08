@@ -1,4 +1,4 @@
-# 🦴 Fracture Detection with DEIM-DETR  
+DEIM for fracture detection
 🩻 **基于 DEIM-DETR 的骨折线检测项目**
 
 本项目基于 [CVPR 2025] 论文 [《DEIM: DETR with Improved Matching for Fast Convergence》](https://www.shihuahuang.cn/DEIM/)，旨在将 DEIM 框架应用并改进于医疗图像中的骨折线检测任务，例如 X 光或 CT 扫描图像。
@@ -16,58 +16,6 @@
 
 ---
 
-## 📁 Directory Structure | 项目结构
-
-```bash
-fracture-detection-deim/
-├── configs/            # 配置文件（Config files）
-├── datasets/           # 数据集加载器（Dataset loading and preparation）
-├── models/             # 模型模块，包括DEIM结构（Model components: DEIM, MAL...）
-├── tools/              # 训练、评估、可视化脚本（Train, evaluate, visualize）
-├── visualize/          # 结果可视化（Visual output）
-├── main.py             # 主运行文件（Main script）
-└── README.md
-```
-
----
-
-## 🚀 Quick Start | 快速开始
-
-### 1️⃣ Clone 仓库 | Clone the Repository
-
-```bash
-git clone https://github.com/your-username/fracture-detection-deim.git
-cd fracture-detection-deim
-```
-
-### 2️⃣ 安装环境 | Install Environment
-
-```bash
-pip install -r requirements.txt
-# 或使用 conda
-conda create -n deim-med python=3.9
-conda activate deim-med
-```
-
-### 3️⃣ 准备数据集 | Prepare Dataset
-
-支持 COCO 格式的医疗图像数据集，例如：
-
-```
-datasets/
-└── fracture_xray/
-    ├── annotations/
-    └── images/
-```
-
-### 4️⃣ 开始训练 | Start Training
-
-```bash
-python main.py --config configs/deim_fracture.yaml
-```
-
----
-
 ## 🧠 What is DEIM? | 什么是 DEIM？
 
 DEIM（Dense One-to-One Matching + Matchability-Aware Loss）是一种提升 DETR 训练效率的方法。它通过：
@@ -81,20 +29,12 @@ DEIM（Dense One-to-One Matching + Matchability-Aware Loss）是一种提升 DET
 
 ---
 
-## 📷 Example Output | 示例输出
-
-> ⚠️ 可视化示例图正在准备中，如果你已有对比图，我可以帮你添加！
-
----
-
 ## 📊 Results | 项目进展（持续更新）
 
 我们将测试以下公开或私有数据集：
 
-- ✅ MURA
-- ✅ DeepFracture（或自建骨折数据）
-- ⏳ 医院匿名化临床数据集（如有）
-
+- ✅ PMF私有数据集
+- ✅ FracAtlas公开数据集
 ---
 
 ## 🔬 Future Work | 后续改进方向
@@ -106,28 +46,3 @@ DEIM（Dense One-to-One Matching + Matchability-Aware Loss）是一种提升 DET
 
 ---
 
-## 📌 Citation | 引用方式
-
-```bibtex
-@inproceedings{huang2025deim,
-  title={DEIM: DETR with Improved Matching for Fast Convergence},
-  author={Huang, Shihua and Lu, Zhichao and Cun, Xiaodong and Yu, Yongjun and Zhou, Xiao and Shen, Xi},
-  booktitle={CVPR},
-  year={2025}
-}
-```
-
----
-
-## 📬 Contact | 联系方式
-
-Maintainer | 项目维护者: Your Name  
-Email | 邮箱: your.email@example.com  
-GitHub: [@your-username](https://github.com/your-username)
-
----
-
-## 🛡 License | 许可证
-
-本项目使用 MIT 协议开源。  
-Licensed under the MIT License.
