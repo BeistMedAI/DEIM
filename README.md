@@ -21,11 +21,11 @@ DEIM for fracture detection
 DEIM（Dense One-to-One Matching + Matchability-Aware Loss）是一种提升 DETR 训练效率的方法。它通过：
 
 - ✅ **Dense O2O 匹配**增加有效正样本数量
-- ✅ **MAL（匹配感知损失）**提高低质量匹配样本的利用率
+- ✅ MAL（匹配感知损失）提高低质量匹配样本的利用率
 - ✅ 训练更快，收敛更快，精度更高
 
 > Citation: Huang et al., CVPR 2025  
-> [📄 Paper 链接](https://www.shihuahuang.cn/DEIM/) | [🔗 官方代码](https://github.com/IDEA-Research/DEIM)
+> [📄 Paper 链接](https://www.shihuahuang.cn/DEIM/) | [🔗 官方代码](https://github.com/ShihuaHuang95/DEIM)
 
 ---
 
